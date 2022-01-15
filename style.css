@@ -54,12 +54,18 @@ main {
     line-height: 70px;
     font-weight: 700;
 }
-.text a, .see-more a {
+.text a {
     text-decoration: none;
     background: #E02C6D;
     padding: 5px 46px;
     border-radius: 17px;
     color: #fff;
+}
+ .see-more a {
+    text-decoration: none;
+    padding: 5px 46px;
+    border-radius: 17px;
+    color: #E02C6D;
 }
 /* popular section */
 .collection-title {
