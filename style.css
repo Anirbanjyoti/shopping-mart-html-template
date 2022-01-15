@@ -84,3 +84,28 @@ p.social-link span i {
     display: inline-block;
     width: 25px;
 }
+/* ----------media query -----------*/
+@media only screen and (max-width:768px){
+    .container {
+        width: 100%;
+    }
+    li.m {
+        display: none;
+    }
+    .text {
+        width: 70%;
+        order:2;
+    }
+    .main-section {
+        display: grid;
+        justify-content: end;
+        align-items: center;
+        justify-items: center;
+    }
+    .populer-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        grid-row-gap: 30px;
+    }
+}
