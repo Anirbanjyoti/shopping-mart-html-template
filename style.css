@@ -109,3 +109,11 @@ p.social-link span i {
         grid-row-gap: 30px;
     }
 }
+@media only screen and (min-width:768px) and (max-width:890px){
+    .container {
+        width: 100%;
+    }
+    .populer-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
