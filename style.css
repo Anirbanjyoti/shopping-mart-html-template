@@ -106,6 +106,9 @@ i.fas.fa-star, .fa-star-half-alt {
 .best-section .product img{
     width:100%;
 }
+h1.Best-title {
+    margin-left: 40px;
+}
 .product {
     padding: 17px;
     box-shadow: 0px 0px 18px #888888;
